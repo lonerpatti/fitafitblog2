@@ -1,3 +1,15 @@
+import { list } from './post.controllers';
+
+export default [
+    {
+        method: 'GET',
+        path: '/posts',
+        handler: list
+
+    }
+]
+
+/*
 const Hapi = require('@hapi/hapi');
 
 const { Sequelize, Model, DataTypes } = require('sequelize');
@@ -112,3 +124,4 @@ process.on('unhandledRejection', (err) => {
 });
 
 init();
+*/
