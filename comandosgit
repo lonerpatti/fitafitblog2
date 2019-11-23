@@ -6,3 +6,6 @@ git remote -v
 git status
 git log
 git push origin master
+git add comandosgit
+git commit -m "Comandos utilizados no GIT."
+git push origin master
